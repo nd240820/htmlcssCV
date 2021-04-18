@@ -1,0 +1,53 @@
+body {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 100px;
+}
+
+.left {
+  align: left;
+}
+.center {
+  text-align: center;
+}
+
+.tag {
+  background-color: #009688;
+  color: #fff;
+  display: inline-block;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  text-align: center;
+}
+
+.circular--portrait {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  margin-left: 175px;
+}
+
+.circular--portrait img {
+  width: 100%;
+  height: auto;
+  margin-top: -30px;
+}
+
+.relative {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 0px solid white;
+}
+
+.absolute {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  border: 0px solid white;
+}
